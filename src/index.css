@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+  box-sizing: border-box!important;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+  /* width: 100vw!important; */
+  /* overflow-x:hidden; */
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.App_Main_container{
+  display: flex;
+  justify-content: center;
+  /* background-color: black;
+  color: white; */
+}
+/***************** Startup_Page start ****************************/
+.StartupPage_Main_div{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  place-items: center;
+  width:100vw;
+  height:100vh;
+  
+}
+.StartupPage_Main_div > h3{
+  font-weight: bold;
+  padding-top: 20px;
+  color: #075E54;
+  text-align: center;
+}
+.StartupPage_Main_div > img{
+  width: 300px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.StartupPage_Main_div > p{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  /* text-decoration: none!important; */
+}
+.StartupPage_Main_div >P> a{
+  /* font-weight: 600; */
+  text-decoration: none!important;
+}
+.StartupPage_Main_div_Button{
+  background-color: #25D366!important;
+  color: #fff!important;
+  width: 270px!important;
+  outline: none!important;
+}
+.StartupPage_last_p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* position: fixed;
+  bottom: 0px; */
+  /* padding-top: 30px; */
+  /* font-size: small; */
+  /* position: sticky; */
+  /* bottom: 0px; */
+  /* padding-top: 30px; */
+}
+.StartupPage_last_p > p{
+  color: #25D366;
+  font-size:larger;
+  font-weight: bold;
+  font-family:monospace;
+  word-spacing:2px;
+}
+/***************** Startup_Page Ends ****************************/
+/***************** LogIn_Page Starts ****************************/
+.LogIn_MainDiv{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  place-items: center;
+  width:100vw;
+  height:100vh;
+  
+}
+.LogIn_MainDiv> h6{
+  padding-top: 13px;
+  color: #075E54;
+}
+.LogIn_MainDiv> p{
+  padding-top: 33px;
+  text-align: center;
+  
+}
+.AddAPhotoIcon_outer_div{
+  /* padding-top: 600px!important; */
+  border-radius: 100px;
+  padding: 30px;
+  cursor: pointer;
+  background-color: rgb(224, 222, 222);
+}
+.AddAPhotoIcon{
+  font-size: 40px!important;
+  
+  /* color: #25D366 !important; */
+}
+.LogIn_Input_maindiv{
+  padding-top: 40px;
+}
+.LogIn_Input_maindiv > input{
+  border: none;
+  border-bottom: 2px solid #075E54;
+  width: 300px;
+  outline: none;
+  padding-left: 10px;
+  text-transform:capitalize;
+
+}
+.LogIn_MainDiv_Button{
+  background-color: #25D366!important;
+  color: #fff!important;
+  width: 80px!important;
+  outline: none!important;
+  position: fixed!important;
+  bottom: 30px!important;
+  margin-left: -35px!important;
+}
+.LogIn_MainDiv_Button_disabled{
+  background-color: grey!important;
+  color: #fff!important;
+  width: 80px!important;
+  outline: none!important;
+  position: fixed!important;
+  bottom: 30px!important;
+  margin-left: -35px!important;
+}
+/***************** LogIn_Page Ends ****************************/
+
+/***************** NavbarHeader Starts ****************************/
+.NavbarHeader_Main_div{
+  /* margin-left: -3px; */
+  display: flex;
+  padding-top: 9px;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* place-items: center; */
+  width:100vw;
+  color: #fff;
+  /*  */
+  background-color: #075E54;
+}
+.NavbarHeader_Main_div> p{
+  /* padding-top: 10px; */
+  font-weight: bold;
+}
+.NavbarHeader_Main_div_icon{
+  margin-left: 20px;
+  /* font-size: xx-large!important; */
+  /* color: #25D366!important; */
+}
+/***************** NavbarHeader Ends ****************************/
+
+/***************** NavBar Starts ****************************/
+.NavBar_Main_div{
+  width:100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: #075E54;
+  padding-top: 5px;
+  /* place-items: center; */
+  /* justify-content: center; */
+}
+.NavBar_Main_div_Button{
+  display: flex;
+  
+  color: rgb(202, 199, 199)!important;
+  outline: none!important;
+  width: 30vw;
+  flex: 1!important;
+  border-radius: 0!important;
+  text-decoration: none!important;
+}
+.NavBar_Main_div_NavLink{
+  text-decoration: none;
+}
+.NavBar_Main_div_NavLink_btn{
+  /* color: #fff!important; */
+  text-decoration: none!important;
+  border: none;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+}
+.NavBar_Main_div_NavLink_btn> Button{
+  color: white !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+/***************** NavBar Ends ****************************/
+
+/***************** UserId Starts ****************************/
+.UserId_Mian_div{
+  width:100vw;
+  
+  height: 100vh;
+}
+.UserId_Mian_div> p{
+  display: flex;
+  place-items: center;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #075E54;
+}
+.UserId_Mian_div_p_ArrowBackIcon{
+margin-right: 20px;
+text-decoration: none;
+color: #fff!important;
+}
+.UserId_Mian_div_logo_div{
+  /* width:70px; */
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 30px;
+  cursor: pointer;
+  /* background-color: rgb(224, 222, 222); */
+}
+.UserId_AddAPhotoIcon{
+  font-size: 8rem!important;
+  color: 	#075E54!important;
+}
+.UserId_Lowerdiv{
+  display: flex;
+  place-items: center;
+  /* justify-content: space-between; */
+}
+.PersonIcon{
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-bottom: 65px;
+}
+.Userid_name{
+  display: flex;
+  flex:1;
+  place-items: center;
+  justify-content: space-between;
+}
+.Userid_name_p{
+  display: flex;
+  place-content: center;
+  /* place-items: center; */
+  flex-direction: column;
+}
+
+.CreateIcon{
+  margin-right: 30px;
+  color:rgb(190, 187, 187)!important;
+ 
+}
+.CreateIcon_hover{
+  margin-right: 30px;
+  color:rgb(190, 187, 187)!important;
+}
+.CreateIcon_hover :hover{
+  color: #25D366!important;
+}
+.UserId_icon_color{
+  color: #075E54!important;
+}
+.UserId_name_detail{
+  /* padding-top: 0px; */
+  padding-right: 40px;
+  font-size: small;
+  color: rgb(83, 81, 81)!important;
+}
+.UserId_name_detail_p{
+  /* padding-top: 0px; */
+  padding-right: 40px;
+  font-size:medium;
+  outline: none;
+  /* color: rgb(83, 81, 81)!important; */
+}
+.Created_by{
+  position: fixed;
+  bottom: 0;
+  width:100vw;
+  font-size: small;
+  text-align: center;
+  color:grey;
+  
+}
+/***************** UserId Ends ****************************/
+
+/***************** Chats Starts ****************************/
+.navbar_fixed{
+  position: sticky!important;
+  top: 0px!important;
+  z-index: 50!important;
+}
+.Chats_Main_Div{
+  width: 100vw;
+  /* overflow: hidden; */
+  /* overflow-x: hidden!important; */
+}
+.chat_icon{
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #25D366;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 1px 1px 9px   rgb(122, 122, 122);
+  /* right: 460px; */
+}
+
+/***************** Chats Ends ****************************/
+
+/***************** ChatsDetail Starts ****************************/
+.ChatsDetail_main_div{
+  margin-top: 0px;
+  /* width: 90vw; */
+  padding-left: 6px;
+  padding-right: 8px;
+  display: flex;
+  padding-top: 10px;
+  margin-bottom: -15px;
+}
+.ChatsDetail_img{
+  width: 50px;
+  height: 50px;
+  margin:0px 0px 0px 10px;
+  border-radius: 100vw;
+}
+.Chatdetail_main_div_inner_div{
+  display: flex;
+  flex: 1!important;
+  justify-content: space-between!important;
+}
+.Chatdetail_main_div_inner_div >p{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.Chatdetail_main_div_inner_div_sms{
+  display: flex;
+  flex: 1;
+  padding-left: 10px;
+  margin-top: -15px;
+  color: grey;
+  font-size: small;
+}
+.ChatsDetail_hr_line{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -20px;
+  color: grey;
+}
+/***************** ChatsDetail Ends ****************************/
+
+
+/***************** Status Starts ****************************/
+.Recent_updates{
+  display: flex;
+background-color: rgb(238, 235, 235);
+font-weight: 600;
+font-size: small;
+flex: 1;
+color: rgb(99, 99, 99);
+padding: 5px;
+margin-left: 10px;
+}
+
+.img_border{
+  /* border: 3px solid #fff!important; */
+  border: 3px solid #128C7E;
+  /* color: #25D366; */
+  
+}
+
+/***************** Status Ends ****************************/
+
+/***************** Message Starts ****************************/
+.Message_Header_img{
+  width: 33px;
+  height: 33px;
+  margin:0px 0px 0px 1px;
+  border-radius: 100vw;
+}
+.Message_header{
+  height: 49px;
+  display: flex;
+  padding-left: 7px;
+  padding-right: 7px;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  background-color: #075E54;
+  place-items: center;
+  /* margin-top: -10px;
+  margin-bottom: -10px; */
+}
+.Message_Main_container{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* flex-wrap: wrap;
+  display: flex; */
+  /* background-color: rgb(214, 214, 214); */
+  background-image: url('https://picsum.photos/500/1000?grayscale');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+
+}
+.Message_input_main{
+  position: fixed;
+bottom: 2px;
+  width: 100vw;
+  display: flex;
+  flex: 1;
+  padding: 5px;
+  /* background-color: black; */
+
+}
+.Message_input{
+  flex: 0.8;
+  /* padding-left: 5px;
+  padding-right: 5px; */
+  display: flex;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+  background-color: white;
+  width:fit-content;
+  border-radius: 50px;
+  color: grey;
+
+}
+.Message_input> input{
+  flex: 1;
+  margin-left: 3px;
+  border-radius: 50px;
+  outline: none;
+  padding: 5px;
+border: none;
+}
+.Message_mike_main{
+  flex:0.2;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+.Message_mike{
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background-color: #075E54;
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  color: white;
+  border-radius: 100px;
+  /* margin-right: 10px; */
+}
+.buton{
+  color: #fff;
+  background-color: #075E54;
+  outline: none!important;
+  border: none;
+}
+.li_sms{
+  list-style: none;
+  background-color: #25D366;
+  color: #fff;
+  padding: 3px 10px 3px 10px;
+  display: flex;
+  flex-direction:column;
+  border-radius: 0px 9px 9px 9px;
+margin: 3px 5px 3px 6px;
+  
+}
+.li_sms::-webkit-scrollbar{
+  display: none
+}
+.sms_container_div{
+  display: flex;
+  flex-direction: column;
+
+}
+.sms_TextareaAutosize{
+  margin-left: 5px;
+  background-color: #25D366!important;
+  padding: 3px 10px 3px 10px !important;
+  border-radius: 0px 6px 6px 12px !important;
+  border: none !important;
+  outline: none !important;
+  color: white ;
+  cursor:default;
+  font-size: small;
+}
+
+.sms_container_div_0{
+  display: flex;
+  flex-direction:row-reverse;
+
+}
+.sms_TextareaAutosize_0{
+  margin-top: 4px !important;
+  margin-right: 5px;
+  background-color: #fff!important;
+  padding: 3px 10px 3px 10px !important;
+  border-radius: 6px 0px 12px 6px !important;
+  border: none !important;
+  outline: none !important;
+  color: balck ;
+  cursor:default;
+  font-size: small;
+}
+.scroll_msg{
+  /* height: auto; */
+  height:83vh;
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
+}
+.scroll_msg::-webkit-scrollbar{
+  display: none;
+}
+/* .time{
+  color: white!important;
+} */
+/***************** Message Ends ****************************/
+
+/***************** Camera Ends ****************************/
+.Camera_main{
+  width: 100vw !important;
+  height: 100vh!important;
+  margin-top: -58px;
+  background-color: black !important;
+  display: flex;
+  flex-direction: column;
+}
+.Camera_inner_div{
+  width: 20vw;
+  padding: 10px;
+  width: 100vw;
+  background-color: black;
+  /* height: 10px; */
+   position: fixed;
+  top: 0px;
+  /* background-color:#075E54; */
+  z-index: 1000!important;
+}
+.Cam_div{
+  background-color: black;
+  margin-top: -10px;
+  /* height: 100px; */
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  z-index: -85;
+
+
+}
+/***************** Camera Ends ****************************/
+
+/* ***************************status_video *********************************/
+/* .Message_header_Cam{
+  position: fixed;
+  top:2px;
+} */
+
